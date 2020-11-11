@@ -1,5 +1,216 @@
-EESchema Schematic File Version 4
-EELAYER 30 0
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:+3v6
+LIBS:2.4GHZ_2450FB15L0001
+LIBS:6multi
+LIBS:11aa-unio-eeprom
+LIBS:23lc1024
+LIBS:25q40b
+LIBS:74hc259
+LIBS:74hc390
+LIBS:74hc595_cp
+LIBS:74hc4051
+LIBS:74hc4067
+LIBS:1206network
+LIBS:4427
+LIBS:5050RGB
+LIBS:7805
+LIBS:7805to220
+LIBS:a4447sljtr
+LIBS:ad9216
+LIBS:adc-ltc2450
+LIBS:ak5358b
+LIBS:ap1117
+LIBS:atmega48_88_168_328_tqfp32
+LIBS:atmega1284rfr2
+LIBS:atmegax8pb
+LIBS:atmegaxu2
+LIBS:atmel_kk
+LIBS:attiny13-mm
+LIBS:attiny441
+LIBS:attiny441-qfn
+LIBS:attinyx4
+LIBS:attinyx5
+LIBS:attinyx61
+LIBS:atx_power
+LIBS:avr6pin
+LIBS:avr_usb_3v3-cache
+LIBS:BELFuse_Ethernet
+LIBS:bluetoothedpa
+LIBS:bmp085
+LIBS:bmp280
+LIBS:bridge-MB2S-TP
+LIBS:can_sn65hvd251qdrq1
+LIBS:cap1128
+LIBS:cap1298_qfn
+LIBS:cap1298_soic
+LIBS:cd4021
+LIBS:choke
+LIBS:conn_8x2
+LIBS:cp2102n
+LIBS:cp2104
+LIBS:crystal-4p
+LIBS:cyusb3012
+LIBS:da4xbridge
+LIBS:diode-to-277-3
+LIBS:dmp2240udm
+LIBS:drv8872
+LIBS:ds2438z
+LIBS:dualopamp
+LIBS:efm8bb1-soic16
+LIBS:efm8bb2-qfn28
+LIBS:efm8bb-qfn20
+LIBS:enc424j600
+LIBS:esp12e
+LIBS:esp32
+LIBS:esp32-wroom
+LIBS:esp8266ex
+LIBS:esp8266-wi07-6
+LIBS:exb-a
+LIBS:flipflop-sn74lvc1g175
+LIBS:ft600q
+LIBS:halleffect-tcs20dlr
+LIBS:hv9910c
+LIBS:ice40ul1k
+LIBS:ir2101
+LIBS:isl3177
+LIBS:isol_adum1201brz
+LIBS:jfet-n_sot-23
+LIBS:ksz8081rn
+LIBS:l6470
+LIBS:l6470-powerso36
+LIBS:l6474
+LIBS:lan8720a
+LIBS:lis3mdl
+LIBS:lm386
+LIBS:lm3478
+LIBS:lm5110
+LIBS:LNK3202
+LIBS:lsm6ds3
+LIBS:lsm9ds0
+LIBS:lsm9ds1
+LIBS:lsm303c
+LIBS:lsm303d
+LIBS:lsm303dlhc
+LIBS:LSM9DS1
+LIBS:ltc2471cms
+LIBS:ltv-846s
+LIBS:lvt-816s
+LIBS:mag3110
+LIBS:max3010x
+LIBS:max19517
+LIBS:max31855
+LIBS:mcp1803
+LIBS:mcp1804
+LIBS:mcp1824_ct
+LIBS:mcp3201
+LIBS:mcp4801-dac
+LIBS:mcp23008-qfn
+LIBS:mcp23008-soic
+LIBS:memi2c_m24m02-dr
+LIBS:mfrc522
+LIBS:mic550x-reg
+LIBS:microsd_1050270001
+LIBS:mma8653fc-accel
+LIBS:mmpq2907a
+LIBS:mosdriver_ncp5901bmntbg
+LIBS:mosfet-lfpak56
+LIBS:mosfetx2vdfn8
+LIBS:mos_n_w_diode
+LIBS:mos_p_d2
+LIBS:mpl3115a2
+LIBS:mpu-9250
+LIBS:ms5611-01ba03
+LIBS:nc7sz08
+LIBS:neon14
+LIBS:network0606
+LIBS:nor-nc7sz02p5x
+LIBS:npn-2222
+LIBS:opa832
+LIBS:opamp_mcp6001t
+LIBS:opto2-ltv-826s
+LIBS:opto-logic-tlp2361
+LIBS:ov2640_ribbon
+LIBS:pcb_bom
+LIBS:pfetsot223
+LIBS:pfetwsmini6-f1-b
+LIBS:photomos
+LIBS:pl140c
+LIBS:pnp-sot23
+LIBS:protect_ncp360snt1g
+LIBS:pusb2x4y
+LIBS:pwrcnv_nxe1s0305mc-r7
+LIBS:r2r_ladder_4816p-r2r-103lf
+LIBS:resonator6smd
+LIBS:rn-cay16-f4
+LIBS:rs485-isl3170
+LIBS:sc16is741a
+LIBS:sk6812_3535
+LIBS:sp485cn
+LIBS:sp3010-04utg
+LIBS:stbc08-battcharger
+LIBS:stm8l051
+LIBS:stm8s003f3
+LIBS:stm32f042-lqfp32
+LIBS:stm32f207
+LIBS:stm32f301
+LIBS:stm32f303
+LIBS:stm32f303_32
+LIBS:stm32f407_100
+LIBS:tactile
+LIBS:tcs3x7x
+LIBS:tlv320adc3101
+LIBS:tlv711
+LIBS:tps40211
+LIBS:ts4231
+LIBS:tusb2077a
+LIBS:tvs2-wurth-82400102
+LIBS:tvs-2x
+LIBS:tvs-bidirection
+LIBS:um5k1ntr
+LIBS:usb3-gsb443133hr
+LIBS:usbmicrob-10118194-0001lf
+LIBS:usb-prot-ip4220cz6
+LIBS:vn7040-switch
+LIBS:ws2812b
+LIBS:ws2813
+LIBS:ws_switch
+LIBS:xfrmr2x2
+LIBS:xor_sot_353_74lvc1g86
+LIBS:zener-sot23-3
+LIBS:ws2812side
+LIBS:sk6812side
+LIBS:ap1117sot223
+LIBS:swadge2019-cache
+EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -14,7 +225,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L swadge2019-rescue:ESP12E ESP1
+L ESP12E ESP1
 U 1 1 5B8A21BE
 P 3950 2250
 F 0 "ESP1" H 4250 2850 60  0000 C CNN
@@ -32,7 +243,7 @@ NoConn ~ 4000 3000
 NoConn ~ 4100 3000
 NoConn ~ 4200 3000
 $Comp
-L power:GND #PWR01
+L GND #PWR01
 U 1 1 5B8A2222
 P 4750 2500
 F 0 "#PWR01" H 4750 2250 50  0001 C CNN
@@ -43,7 +254,7 @@ F 3 "" H 4750 2500 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:+3.3V #PWR02
+L +3.3V #PWR02
 U 1 1 5B8A2577
 P 3150 2500
 F 0 "#PWR02" H 3150 2350 50  0001 C CNN
@@ -54,7 +265,7 @@ F 3 "" H 3150 2500 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L swadge2019-rescue:TACTILE SW1
+L TACTILE SW1
 U 1 1 5B8A258D
 P 6250 1600
 F 0 "SW1" H 6250 1450 60  0000 C CNN
@@ -65,7 +276,7 @@ F 3 "" H 6250 1600 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR03
+L GND #PWR03
 U 1 1 5B8A25E6
 P 6550 1700
 F 0 "#PWR03" H 6550 1450 50  0001 C CNN
@@ -76,7 +287,7 @@ F 3 "" H 6550 1700 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR04
+L GND #PWR04
 U 1 1 5B8A26C5
 P 7900 1150
 F 0 "#PWR04" H 7900 900 50  0001 C CNN
@@ -87,7 +298,7 @@ F 3 "" H 7900 1150 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L swadge2019-rescue:TACTILE SW2
+L TACTILE SW2
 U 1 1 5B8A26CB
 P 7350 2100
 F 0 "SW2" H 7350 1950 60  0000 C CNN
@@ -99,7 +310,7 @@ F 4 "Use standard SMT box tactile buttons.  Similar to PTS645SM43SMTR92. Use RoH
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR05
+L GND #PWR05
 U 1 1 5B8A26D1
 P 7650 2200
 F 0 "#PWR05" H 7650 1950 50  0001 C CNN
@@ -118,7 +329,7 @@ GPIO0
 Text GLabel 4750 2300 2    60   Input ~ 0
 GPIO2
 $Comp
-L power:+3.3V #PWR06
+L +3.3V #PWR06
 U 1 1 5B8A29F9
 P 3150 2000
 F 0 "#PWR06" H 3150 1850 50  0001 C CNN
@@ -133,7 +344,7 @@ RX
 Text GLabel 4750 1800 2    60   Input ~ 0
 TX
 $Comp
-L power:GND #PWR07
+L GND #PWR07
 U 1 1 5B8A3BCC
 P 4750 2400
 F 0 "#PWR07" H 4750 2150 50  0001 C CNN
@@ -150,7 +361,7 @@ GPIO0
 Text GLabel 5800 3350 2    60   Input ~ 0
 GPIO2
 $Comp
-L power:+3.3V #PWR08
+L +3.3V #PWR08
 U 1 1 5B8A3F08
 P 5800 3050
 F 0 "#PWR08" H 5800 2900 50  0001 C CNN
@@ -161,7 +372,7 @@ F 3 "" H 5800 3050 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R1
+L R R1
 U 1 1 5B8A4047
 P 5200 3200
 F 0 "R1" V 5280 3200 50  0000 C CNN
@@ -172,7 +383,7 @@ F 3 "" H 5200 3200 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR09
+L +3.3V #PWR09
 U 1 1 5B8A404E
 P 5200 3050
 F 0 "#PWR09" H 5200 2900 50  0001 C CNN
@@ -187,7 +398,7 @@ GPIO0
 Text GLabel 3150 2400 0    60   Input ~ 0
 GPIO13
 $Comp
-L swadge2019-rescue:OPAMP_MCP6001T U1
+L OPAMP_MCP6001T U1
 U 1 1 5B8A53C5
 P 1800 1650
 F 0 "U1" H 1600 1850 60  0000 C CNN
@@ -199,7 +410,7 @@ F 4 "Must use MCP6001T Opamp" H 1800 1650 60  0001 C CNN "MFG"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:Crystal Y1
+L Crystal Y1
 U 1 1 5B8A5560
 P 800 2800
 F 0 "Y1" H 800 2950 50  0000 C CNN
@@ -213,7 +424,7 @@ $EndComp
 Text GLabel 3150 1900 0    60   Input ~ 0
 ADCPIN
 $Comp
-L power:GND #PWR010
+L GND #PWR010
 U 1 1 5B8A5722
 P 800 2950
 F 0 "#PWR010" H 800 2700 50  0001 C CNN
@@ -224,7 +435,7 @@ F 3 "" H 800 2950 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C1
+L C C1
 U 1 1 5B8A8E95
 P 7000 3150
 F 0 "C1" H 7025 3250 50  0000 L CNN
@@ -235,7 +446,7 @@ F 3 "" H 7000 3150 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR011
+L GND #PWR011
 U 1 1 5B8A8F15
 P 7000 3300
 F 0 "#PWR011" H 7000 3050 50  0001 C CNN
@@ -246,7 +457,7 @@ F 3 "" H 7000 3300 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR012
+L +3.3V #PWR012
 U 1 1 5B8A8F59
 P 7000 3000
 F 0 "#PWR012" H 7000 2850 50  0001 C CNN
@@ -257,7 +468,7 @@ F 3 "" H 7000 3000 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R2
+L R R2
 U 1 1 5B8A3E75
 P 5800 3200
 F 0 "R2" V 5880 3200 50  0000 C CNN
@@ -269,7 +480,7 @@ F 4 "Do Not Populate" V 5800 3200 60  0001 C CNN "MFG"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R6
+L R R6
 U 1 1 5B8A9998
 P 800 2300
 F 0 "R6" V 880 2300 50  0000 C CNN
@@ -280,7 +491,7 @@ F 3 "" H 800 2300 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C2
+L C C2
 U 1 1 5B8A9E2D
 P 1050 2350
 F 0 "C2" H 1075 2450 50  0000 L CNN
@@ -297,7 +508,7 @@ AUDPWR
 Text GLabel 1600 2900 1    60   Input ~ 0
 AUDPWR
 $Comp
-L Device:C C3
+L C C3
 U 1 1 5B8AA4E8
 P 1600 3050
 F 0 "C3" H 1625 3150 50  0000 L CNN
@@ -308,7 +519,7 @@ F 3 "" H 1600 3050 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR013
+L GND #PWR013
 U 1 1 5B8AA552
 P 1600 3200
 F 0 "#PWR013" H 1600 2950 50  0001 C CNN
@@ -321,7 +532,7 @@ $EndComp
 Text GLabel 2000 2850 1    60   Input ~ 0
 AUDPWR
 $Comp
-L Device:R R7
+L R R7
 U 1 1 5B8AA667
 P 2000 3000
 F 0 "R7" V 2080 3000 50  0000 C CNN
@@ -332,7 +543,7 @@ F 3 "" H 2000 3000 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R8
+L R R8
 U 1 1 5B8AA718
 P 2000 3300
 F 0 "R8" V 2080 3300 50  0000 C CNN
@@ -343,7 +554,7 @@ F 3 "" H 2000 3300 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR014
+L GND #PWR014
 U 1 1 5B8AA82C
 P 2000 3450
 F 0 "#PWR014" H 2000 3200 50  0001 C CNN
@@ -358,7 +569,7 @@ VGS
 Text GLabel 1350 2200 2    60   Input ~ 0
 VGS
 $Comp
-L Device:R R4
+L R R4
 U 1 1 5B8AAF01
 P 1200 2200
 F 0 "R4" V 1280 2200 50  0000 C CNN
@@ -371,7 +582,7 @@ $EndComp
 Text GLabel 1250 1750 0    60   Input ~ 0
 VGS
 $Comp
-L Device:R R3
+L R R3
 U 1 1 5B8AB61F
 P 1700 2050
 F 0 "R3" V 1780 2050 50  0000 C CNN
@@ -384,7 +595,7 @@ $EndComp
 Text GLabel 1250 1550 0    60   Input ~ 0
 ADCPIN
 $Comp
-L power:GND #PWR015
+L GND #PWR015
 U 1 1 5B8ABAE0
 P 1250 1650
 F 0 "#PWR015" H 1250 1400 50  0001 C CNN
@@ -395,7 +606,7 @@ F 3 "" H 1250 1650 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R5
+L R R5
 U 1 1 5B8ABB6D
 P 1850 2200
 F 0 "R5" V 1930 2200 50  0000 C CNN
@@ -414,7 +625,7 @@ During colorchord operations, turn on GPIO12.
 Text Notes 1000 800  0    60   ~ 0
 GPIO15 may be used as an additional input if an external pull-down resistor is applied.
 $Comp
-L swadge2019-rescue:CONN_01X05 P1
+L CONN_01X05 P1
 U 1 1 5B947D21
 P 8800 1650
 F 0 "P1" H 8800 1950 50  0000 C CNN
@@ -425,7 +636,7 @@ F 3 "" H 8800 1650 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR016
+L GND #PWR016
 U 1 1 5B947F64
 P 8600 1450
 F 0 "#PWR016" H 8600 1200 50  0001 C CNN
@@ -440,7 +651,7 @@ RX
 Text GLabel 8600 1650 0    60   Input ~ 0
 TX
 $Comp
-L power:+5V #PWR017
+L +5V #PWR017
 U 1 1 5B9481DD
 P 8600 1750
 F 0 "#PWR017" H 8600 1600 50  0001 C CNN
@@ -453,7 +664,7 @@ $EndComp
 Text GLabel 8600 1850 0    60   Input ~ 0
 GPIO0
 $Comp
-L swadge2019-rescue:SK6812SIDE D1
+L SK6812SIDE D1
 U 1 1 5B94923A
 P 2700 5350
 F 0 "D1" H 2700 5100 60  0000 C CNN
@@ -466,7 +677,7 @@ $EndComp
 Text GLabel 2500 5200 0    60   Input ~ 0
 RX
 $Comp
-L swadge2019-rescue:SK6812SIDE D2
+L SK6812SIDE D2
 U 1 1 5B9495BC
 P 3650 5350
 F 0 "D2" H 3650 5100 60  0000 C CNN
@@ -477,7 +688,7 @@ F 3 "" H 3650 5350 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR018
+L GND #PWR018
 U 1 1 5B9496E7
 P 3450 5500
 F 0 "#PWR018" H 3450 5250 50  0001 C CNN
@@ -488,7 +699,7 @@ F 3 "" H 3450 5500 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L swadge2019-rescue:SK6812SIDE D3
+L SK6812SIDE D3
 U 1 1 5B94979B
 P 4700 5350
 F 0 "D3" H 4700 5100 60  0000 C CNN
@@ -500,7 +711,7 @@ F 4 "MUST use OFFICIAL SK6812-SIDE LEDs.  " H 4700 5350 60  0001 C CNN "MFG"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR019
+L GND #PWR019
 U 1 1 5B9497A7
 P 4500 5500
 F 0 "#PWR019" H 4500 5250 50  0001 C CNN
@@ -511,7 +722,7 @@ F 3 "" H 4500 5500 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L swadge2019-rescue:SK6812SIDE D4
+L SK6812SIDE D4
 U 1 1 5B949966
 P 2700 6250
 F 0 "D4" H 2700 6000 60  0000 C CNN
@@ -522,7 +733,7 @@ F 3 "" H 2700 6250 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L swadge2019-rescue:SK6812SIDE D5
+L SK6812SIDE D5
 U 1 1 5B949973
 P 3650 6250
 F 0 "D5" H 3650 6000 60  0000 C CNN
@@ -533,7 +744,7 @@ F 3 "" H 3650 6250 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR020
+L GND #PWR020
 U 1 1 5B94997F
 P 3450 6400
 F 0 "#PWR020" H 3450 6150 50  0001 C CNN
@@ -544,7 +755,7 @@ F 3 "" H 3450 6400 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L swadge2019-rescue:SK6812SIDE D6
+L SK6812SIDE D6
 U 1 1 5B949985
 P 4700 6250
 F 0 "D6" H 4700 6000 60  0000 C CNN
@@ -555,7 +766,7 @@ F 3 "" H 4700 6250 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR021
+L GND #PWR021
 U 1 1 5B949991
 P 4500 6400
 F 0 "#PWR021" H 4500 6150 50  0001 C CNN
@@ -566,7 +777,7 @@ F 3 "" H 4500 6400 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR022
+L GND #PWR022
 U 1 1 5B949C6D
 P 2500 5500
 F 0 "#PWR022" H 2500 5250 50  0001 C CNN
@@ -585,9 +796,9 @@ Wire Wire Line
 Wire Wire Line
 	800  2000 800  2150
 Wire Wire Line
-	800  2450 800  2550
+	800  2450 800  2650
 Wire Wire Line
-	800  2550 1050 2550
+	800  2550 1100 2550
 Wire Wire Line
 	1050 2550 1050 2500
 Connection ~ 800  2550
@@ -640,7 +851,7 @@ Wire Wire Line
 Wire Wire Line
 	2100 6300 2500 6300
 $Comp
-L power:GND #PWR023
+L GND #PWR023
 U 1 1 5B949FA9
 P 2500 6400
 F 0 "#PWR023" H 2500 6150 50  0001 C CNN
@@ -661,7 +872,7 @@ Wire Wire Line
 Wire Wire Line
 	4100 6100 4500 6100
 $Comp
-L swadge2019-rescue:USBMicroB-10118194-0001LF P2
+L USBMicroB-10118194-0001LF P2
 U 1 1 5B94A6CA
 P 7650 4500
 F 0 "P2" H 7800 4700 60  0000 C CNN
@@ -673,7 +884,7 @@ F 4 "Must use micro USB SMT-only Header, like 10118192-0001LF" H 7650 4500 60  0
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR024
+L GND #PWR024
 U 1 1 5B94A9A3
 P 7600 4800
 F 0 "#PWR024" H 7600 4550 50  0001 C CNN
@@ -684,7 +895,7 @@ F 3 "" H 7600 4800 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR025
+L GND #PWR025
 U 1 1 5B94AA02
 P 7700 4800
 F 0 "#PWR025" H 7700 4550 50  0001 C CNN
@@ -695,7 +906,7 @@ F 3 "" H 7700 4800 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR026
+L GND #PWR026
 U 1 1 5B94AA61
 P 7800 4800
 F 0 "#PWR026" H 7800 4550 50  0001 C CNN
@@ -706,7 +917,7 @@ F 3 "" H 7800 4800 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR027
+L GND #PWR027
 U 1 1 5B94AAC0
 P 7900 4800
 F 0 "#PWR027" H 7900 4550 50  0001 C CNN
@@ -717,7 +928,7 @@ F 3 "" H 7900 4800 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR028
+L GND #PWR028
 U 1 1 5B94AB1F
 P 7150 4700
 F 0 "#PWR028" H 7150 4450 50  0001 C CNN
@@ -728,7 +939,7 @@ F 3 "" H 7150 4700 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:+5V #PWR029
+L +5V #PWR029
 U 1 1 5B94B2D2
 P 7150 4300
 F 0 "#PWR029" H 7150 4150 50  0001 C CNN
@@ -739,7 +950,7 @@ F 3 "" H 7150 4300 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L swadge2019-rescue:SWITCH_INV SW7
+L SWITCH_INV SW7
 U 1 1 5B94B360
 P 8800 3300
 F 0 "SW7" H 8600 3450 50  0000 C CNN
@@ -751,7 +962,7 @@ F 4 "Use SPDT SLID Switch, like 401-1999-6-ND" H 8800 3300 60  0001 C CNN "MFG"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR030
+L +3.3V #PWR030
 U 1 1 5B94B58B
 P 8300 3300
 F 0 "#PWR030" H 8300 3150 50  0001 C CNN
@@ -762,7 +973,7 @@ F 3 "" H 8300 3300 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L swadge2019-rescue:AP1117SOT223 U2
+L AP1117SOT223 U2
 U 1 1 5B94BDB8
 P 9350 4350
 F 0 "U2" H 9350 4550 60  0000 C CNN
@@ -774,7 +985,7 @@ F 4 "Use any 1117 3.3V SOT-223 regulator.  I.e. AZ1117 or AP1117" H 9350 4350 60
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR031
+L GND #PWR031
 U 1 1 5B94BF15
 P 9900 4450
 F 0 "#PWR031" H 9900 4200 50  0001 C CNN
@@ -785,7 +996,7 @@ F 3 "" H 9900 4450 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR032
+L +3.3V #PWR032
 U 1 1 5B94C316
 P 2500 6200
 F 0 "#PWR032" H 2500 6050 50  0001 C CNN
@@ -796,7 +1007,7 @@ F 3 "" H 2500 6200 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:+3.3V #PWR033
+L +3.3V #PWR033
 U 1 1 5B94C4CF
 P 2500 5300
 F 0 "#PWR033" H 2500 5150 50  0001 C CNN
@@ -807,7 +1018,7 @@ F 3 "" H 2500 5300 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:+3.3V #PWR034
+L +3.3V #PWR034
 U 1 1 5B94CBC4
 P 3450 5300
 F 0 "#PWR034" H 3450 5150 50  0001 C CNN
@@ -818,7 +1029,7 @@ F 3 "" H 3450 5300 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:+3.3V #PWR035
+L +3.3V #PWR035
 U 1 1 5B94CC29
 P 3450 6200
 F 0 "#PWR035" H 3450 6050 50  0001 C CNN
@@ -829,7 +1040,7 @@ F 3 "" H 3450 6200 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:+3.3V #PWR036
+L +3.3V #PWR036
 U 1 1 5B94CC8E
 P 4500 6200
 F 0 "#PWR036" H 4500 6050 50  0001 C CNN
@@ -840,7 +1051,7 @@ F 3 "" H 4500 6200 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:+3.3V #PWR037
+L +3.3V #PWR037
 U 1 1 5B94CCF3
 P 4500 5300
 F 0 "#PWR037" H 4500 5150 50  0001 C CNN
@@ -851,7 +1062,7 @@ F 3 "" H 4500 5300 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:+5V #PWR038
+L +5V #PWR038
 U 1 1 5B94D2F0
 P 9900 4250
 F 0 "#PWR038" H 9900 4100 50  0001 C CNN
@@ -864,7 +1075,7 @@ $EndComp
 Wire Wire Line
 	8800 4350 8800 3700
 Wire Wire Line
-	8800 3700 9550 3700
+	8800 3700 10250 3700
 Wire Wire Line
 	9550 3700 9550 3400
 Wire Wire Line
@@ -875,7 +1086,7 @@ Wire Wire Line
 	10250 4350 9900 4350
 Connection ~ 9550 3700
 $Comp
-L Device:C C4
+L C C4
 U 1 1 5B950F88
 P 7350 3150
 F 0 "C4" H 7375 3250 50  0000 L CNN
@@ -886,7 +1097,7 @@ F 3 "" H 7350 3150 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR039
+L GND #PWR039
 U 1 1 5B950F8E
 P 7350 3300
 F 0 "#PWR039" H 7350 3050 50  0001 C CNN
@@ -897,7 +1108,7 @@ F 3 "" H 7350 3300 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR040
+L +3.3V #PWR040
 U 1 1 5B950F94
 P 7350 3000
 F 0 "#PWR040" H 7350 2850 50  0001 C CNN
@@ -908,7 +1119,7 @@ F 3 "" H 7350 3000 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L swadge2019-rescue:Battery BT1
+L Battery BT1
 U 1 1 5B951F70
 P 10050 3000
 F 0 "BT1" H 10150 3050 50  0000 L CNN
@@ -920,7 +1131,7 @@ F 4 "Use through-hole AA Battery Holder in Style of Keystone 2460" H 10050 3000 
 	1    0    0    -1  
 $EndComp
 $Comp
-L swadge2019-rescue:Battery BT2
+L Battery BT2
 U 1 1 5B951FE6
 P 10050 3300
 F 0 "BT2" H 10150 3350 50  0000 L CNN
@@ -932,7 +1143,7 @@ F 4 "Use through-hole AA Battery Holder in Style of Keystone 2460" H 10050 3300 
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR041
+L GND #PWR041
 U 1 1 5B952062
 P 10050 3450
 F 0 "#PWR041" H 10050 3200 50  0001 C CNN
@@ -947,7 +1158,7 @@ Wire Wire Line
 Wire Wire Line
 	9300 2850 9300 3200
 $Comp
-L Device:C C5
+L C C5
 U 1 1 5B94AF8F
 P 7750 3150
 F 0 "C5" H 7775 3250 50  0000 L CNN
@@ -958,7 +1169,7 @@ F 3 "" H 7750 3150 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR042
+L GND #PWR042
 U 1 1 5B94AF95
 P 7750 3300
 F 0 "#PWR042" H 7750 3050 50  0001 C CNN
@@ -969,7 +1180,7 @@ F 3 "" H 7750 3300 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR043
+L +3.3V #PWR043
 U 1 1 5B94AF9B
 P 7750 3000
 F 0 "#PWR043" H 7750 2850 50  0001 C CNN
@@ -980,7 +1191,7 @@ F 3 "" H 7750 3000 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L swadge2019-rescue:CONN_1 P10
+L CONN_1 P10
 U 1 1 5B94B412
 P 5500 4200
 F 0 "P10" H 5580 4200 40  0000 L CNN
@@ -991,7 +1202,7 @@ F 3 "" H 5500 4200 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L swadge2019-rescue:CONN_1 P9
+L CONN_1 P9
 U 1 1 5B94B418
 P 5500 4050
 F 0 "P9" H 5580 4050 40  0000 L CNN
@@ -1002,7 +1213,7 @@ F 3 "" H 5500 4050 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L swadge2019-rescue:CONN_1 P8
+L CONN_1 P8
 U 1 1 5B94B41E
 P 5500 3900
 F 0 "P8" H 5580 3900 40  0000 L CNN
@@ -1013,7 +1224,7 @@ F 3 "" H 5500 3900 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L swadge2019-rescue:CONN_1 P7
+L CONN_1 P7
 U 1 1 5B94B424
 P 5500 3750
 F 0 "P7" H 5580 3750 40  0000 L CNN
@@ -1024,7 +1235,7 @@ F 3 "" H 5500 3750 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:GND #PWR044
+L GND #PWR044
 U 1 1 5B94B42A
 P 5650 3750
 F 0 "#PWR044" H 5650 3500 50  0001 C CNN
@@ -1035,7 +1246,7 @@ F 3 "" H 5650 3750 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR045
+L GND #PWR045
 U 1 1 5B94B430
 P 5650 3900
 F 0 "#PWR045" H 5650 3650 50  0001 C CNN
@@ -1046,7 +1257,7 @@ F 3 "" H 5650 3900 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR046
+L GND #PWR046
 U 1 1 5B94B436
 P 5650 4050
 F 0 "#PWR046" H 5650 3800 50  0001 C CNN
@@ -1057,7 +1268,7 @@ F 3 "" H 5650 4050 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR047
+L GND #PWR047
 U 1 1 5B94B43C
 P 5650 4200
 F 0 "#PWR047" H 5650 3950 50  0001 C CNN
@@ -1068,7 +1279,7 @@ F 3 "" H 5650 4200 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L swadge2019-rescue:CONN_1 P12
+L CONN_1 P12
 U 1 1 5B94B51E
 P 5500 4500
 F 0 "P12" H 5580 4500 40  0000 L CNN
@@ -1079,7 +1290,7 @@ F 3 "" H 5500 4500 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L swadge2019-rescue:CONN_1 P11
+L CONN_1 P11
 U 1 1 5B94B524
 P 5500 4350
 F 0 "P11" H 5580 4350 40  0000 L CNN
@@ -1090,7 +1301,7 @@ F 3 "" H 5500 4350 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:GND #PWR048
+L GND #PWR048
 U 1 1 5B94B52A
 P 5650 4350
 F 0 "#PWR048" H 5650 4100 50  0001 C CNN
@@ -1101,7 +1312,7 @@ F 3 "" H 5650 4350 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR049
+L GND #PWR049
 U 1 1 5B94B530
 P 5650 4500
 F 0 "#PWR049" H 5650 4250 50  0001 C CNN
@@ -1112,7 +1323,7 @@ F 3 "" H 5650 4500 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L swadge2019-rescue:CONN_1 P13
+L CONN_1 P13
 U 1 1 5B94B7A5
 P 4700 3600
 F 0 "P13" H 4780 3600 40  0000 L CNN
@@ -1123,7 +1334,7 @@ F 3 "" H 4700 3600 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:GND #PWR050
+L GND #PWR050
 U 1 1 5B94B7AB
 P 4850 3600
 F 0 "#PWR050" H 4850 3350 50  0001 C CNN
@@ -1134,7 +1345,7 @@ F 3 "" H 4850 3600 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:C C6
+L C C6
 U 1 1 5B94B980
 P 6550 3150
 F 0 "C6" H 6575 3250 50  0000 L CNN
@@ -1145,7 +1356,7 @@ F 3 "" H 6550 3150 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR051
+L GND #PWR051
 U 1 1 5B94B986
 P 6550 3300
 F 0 "#PWR051" H 6550 3050 50  0001 C CNN
@@ -1156,7 +1367,7 @@ F 3 "" H 6550 3300 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR052
+L +5V #PWR052
 U 1 1 5B94BD38
 P 6550 3000
 F 0 "#PWR052" H 6550 2850 50  0001 C CNN
@@ -1169,7 +1380,7 @@ $EndComp
 Text GLabel 3150 2300 0    60   Input ~ 0
 GPIO12
 $Comp
-L Device:R R9
+L R R9
 U 1 1 5B94F964
 P 6650 3800
 F 0 "R9" V 6730 3800 50  0000 C CNN
@@ -1181,7 +1392,7 @@ F 4 "Do Not Populate" V 6650 3800 60  0001 C CNN "MFG"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR053
+L +3.3V #PWR053
 U 1 1 5B94FABC
 P 6650 3650
 F 0 "#PWR053" H 6650 3500 50  0001 C CNN
@@ -1192,7 +1403,7 @@ F 3 "" H 6650 3650 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L swadge2019-rescue:CONN_02X02 P3
+L CONN_02X02 P3
 U 1 1 5BC436C6
 P 7500 5350
 F 0 "P3" H 7500 5500 50  0000 C CNN
@@ -1204,7 +1415,7 @@ F 4 "Do not populate" H 7500 5350 60  0001 C CNN "MFG"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR054
+L GND #PWR054
 U 1 1 5BC45215
 P 7250 5400
 F 0 "#PWR054" H 7250 5150 50  0001 C CNN
@@ -1215,7 +1426,7 @@ F 3 "" H 7250 5400 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:+3.3V #PWR055
+L +3.3V #PWR055
 U 1 1 5BC4539E
 P 7250 5300
 F 0 "#PWR055" H 7250 5150 50  0001 C CNN
@@ -1226,7 +1437,7 @@ F 3 "" H 7250 5300 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R R11
+L R R11
 U 1 1 5BC45E28
 P 7000 3800
 F 0 "R11" V 7080 3800 50  0000 C CNN
@@ -1238,7 +1449,7 @@ F 4 "Do Not Populate" V 7000 3800 60  0001 C CNN "MFG"
 	1    0    0    -1  
 $EndComp
 $Comp
-L swadge2019-rescue:SPST SW3
+L SPST SW3
 U 1 1 5BC48432
 P 7400 1150
 F 0 "SW3" H 7400 1250 50  0000 C CNN
@@ -1250,7 +1461,7 @@ F 4 "https://www.aliexpress.com/item/50pcs-lot-SMT-3x6x2-5MM-2PIN-Tactile-Tact-P
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R10
+L R R10
 U 1 1 5BC48E98
 P 3000 2200
 F 0 "R10" V 3080 2200 50  0000 C CNN
@@ -1263,7 +1474,7 @@ $EndComp
 Text GLabel 1250 2900 1    60   Input ~ 0
 AUDPWR
 $Comp
-L Device:C C7
+L C C7
 U 1 1 5BC49420
 P 1250 3050
 F 0 "C7" H 1275 3150 50  0000 L CNN
@@ -1274,7 +1485,7 @@ F 3 "" H 1250 3050 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR056
+L GND #PWR056
 U 1 1 5BC49426
 P 1250 3200
 F 0 "#PWR056" H 1250 2950 50  0001 C CNN
@@ -1285,7 +1496,7 @@ F 3 "" H 1250 3200 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR057
+L +3.3V #PWR057
 U 1 1 5BC4BC3D
 P 7000 3650
 F 0 "#PWR057" H 7000 3500 50  0001 C CNN
@@ -1306,7 +1517,7 @@ GPIO5
 Text GLabel 7750 5400 2    60   Input ~ 0
 GPIO5
 $Comp
-L Device:C C8
+L C C8
 U 1 1 5BC5464F
 P 8050 2550
 F 0 "C8" H 8075 2650 50  0000 L CNN
@@ -1317,7 +1528,7 @@ F 3 "" H 8050 2550 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR058
+L GND #PWR058
 U 1 1 5BC54655
 P 8050 2700
 F 0 "#PWR058" H 8050 2450 50  0001 C CNN
@@ -1328,7 +1539,7 @@ F 3 "" H 8050 2700 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR059
+L +3.3V #PWR059
 U 1 1 5BC5465B
 P 8050 2400
 F 0 "#PWR059" H 8050 2250 50  0001 C CNN
@@ -1339,7 +1550,7 @@ F 3 "" H 8050 2400 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L swadge2019-rescue:CONN_1 P4
+L CONN_1 P4
 U 1 1 5BC40676
 P 8900 6000
 F 0 "P4" H 8980 6000 40  0000 L CNN
@@ -1350,7 +1561,7 @@ F 3 "" H 8900 6000 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L swadge2019-rescue:CONN_1 P5
+L CONN_1 P5
 U 1 1 5BC40D15
 P 8900 6150
 F 0 "P5" H 8980 6150 40  0000 L CNN
@@ -1361,7 +1572,7 @@ F 3 "" H 8900 6150 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L swadge2019-rescue:CONN_1 P6
+L CONN_1 P6
 U 1 1 5BC41066
 P 8900 5850
 F 0 "P6" H 8980 5850 40  0000 L CNN
@@ -1372,7 +1583,7 @@ F 3 "" H 8900 5850 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:GND #PWR060
+L GND #PWR060
 U 1 1 5BD94187
 P 800 3600
 F 0 "#PWR060" H 800 3350 50  0001 C CNN
@@ -1387,10 +1598,4 @@ Wire Wire Line
 Wire Wire Line
 	1100 3300 1100 2550
 Connection ~ 1050 2550
-Wire Wire Line
-	800  2550 800  2650
-Wire Wire Line
-	9550 3700 10250 3700
-Wire Wire Line
-	1050 2550 1100 2550
 $EndSCHEMATC
